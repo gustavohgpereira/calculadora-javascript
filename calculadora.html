@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javaScript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="calc">
+        <h1>Calculadora JavaScript</h1>
+    <br>
+    Primeiro Número<br>
+    <input id="n1" type="number"> <br><br>
+    Segundo Número<br>
+    <input id="n2" type="number"> <br> <br>
+    <button onclick="soma()">Somar</button>
+    <button onclick="subtrair()">Subtrair</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button> <br><br>
+    <span id="res"></span>
+    <!-- <div id="resultado"> resultado é: <span.innerHTML  id="res"></span>
+    </div> -->
+    <!-- <script>
+        var n1 = document.getElementById("n1")
+        var n2 = document.getElementById("n2")
+        var res = document.getElementById("res")
+
+        function soma() {
+            res.innerHTML = parseInt(n1.value) + parseInt(n2.value)
+        }
+        function subtrair() {
+            res.innerHTML = parseInt(n1.value) - parseInt(n2.value)
+        }
+        function multiplicar() {
+            res.innerHTML = parseInt(n1.value) * parseInt(n2.value)
+        }
+        function dividir() {
+            if(n2.value ==0){
+                res.innerHTML ="Não é possível dividir por zero"
+            }
+            else{
+                res.innerHTML = parseInt(n1.value) / parseInt(n2.value)
+            }
+            
+            
+        }
+    </script> -->
+    </div>
+</body>
+
+</html>
